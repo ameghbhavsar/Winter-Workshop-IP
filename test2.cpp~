@@ -1,0 +1,12 @@
+#include"opencv2/imgproc/imgproc.hpp"
+#include"opencv2/highgui/highgui.hpp"
+using namespace std;
+using namespace cv;
+int main()
+{
+        Mat var1(100,50,CV_8UC3,Scalar(0,0,0));    //(B,G,R)
+	for(int i=0;i<var1.cols;i++)
+	   for(int j=0;j<var1.rows;j++){
+		var1.at<Vec3b>(i,j)[0]=255;
+	   }
+}

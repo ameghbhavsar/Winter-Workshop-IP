@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amegh/ip/Day1/chess.cpp
+opencv2/imgproc/imgproc.hpp
+/home/amegh/ip/Day1/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/amegh/ip/Day1/opencv2/highgui/highgui.hpp
+
