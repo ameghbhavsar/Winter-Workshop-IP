@@ -24,7 +24,7 @@ int main()
        visited[i][j]=0;
      }
    }
-   for(int i=0;i<var1.rows;i++){          
+/*   for(int i=0;i<var1.rows;i++){
      for(int j=0;j<var1.cols;j++){
        if(var1.at<uchar>(i,j)==255)
           var1.at<uchar>(i,j)==0;
@@ -32,7 +32,7 @@ int main()
         var1.at<uchar>(i,j)==255;
      }
    }
-
+*/
    for(int i=0; i<var1.rows;i++){
      for(int j=0;j<var1.cols;j++){
        if(var1.at<uchar>(i,j)==255 && !visited[i][j]){

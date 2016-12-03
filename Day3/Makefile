@@ -112,19 +112,19 @@ a.out/fast:
 .PHONY : a.out/fast
 
 # target to build an object file
-bfs.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/bfs.o
-.PHONY : bfs.o
+canny1.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny1.o
+.PHONY : canny1.o
 
 # target to preprocess a source file
-bfs.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/bfs.i
-.PHONY : bfs.i
+canny1.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny1.i
+.PHONY : canny1.i
 
 # target to generate assembly for a file
-bfs.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/bfs.s
-.PHONY : bfs.s
+canny1.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny1.s
+.PHONY : canny1.s
 
 # Help Target
 help:
@@ -135,9 +135,9 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bfs.o"
-	@echo "... bfs.i"
-	@echo "... bfs.s"
+	@echo "... canny1.o"
+	@echo "... canny1.i"
+	@echo "... canny1.s"
 .PHONY : help
 
 
