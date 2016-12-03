@@ -49,37 +49,37 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
-CMakeFiles/a.out.dir/canny.o: CMakeFiles/a.out.dir/flags.make
-CMakeFiles/a.out.dir/canny.o: canny.cpp
+CMakeFiles/a.out.dir/bfs.o: CMakeFiles/a.out.dir/flags.make
+CMakeFiles/a.out.dir/bfs.o: bfs.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/amegh/ip/Day3/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/canny.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/canny.o -c /home/amegh/ip/Day3/canny.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/bfs.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/bfs.o -c /home/amegh/ip/Day3/bfs.cpp
 
-CMakeFiles/a.out.dir/canny.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/canny.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day3/canny.cpp > CMakeFiles/a.out.dir/canny.i
+CMakeFiles/a.out.dir/bfs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/bfs.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day3/bfs.cpp > CMakeFiles/a.out.dir/bfs.i
 
-CMakeFiles/a.out.dir/canny.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/canny.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day3/canny.cpp -o CMakeFiles/a.out.dir/canny.s
+CMakeFiles/a.out.dir/bfs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/bfs.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day3/bfs.cpp -o CMakeFiles/a.out.dir/bfs.s
 
-CMakeFiles/a.out.dir/canny.o.requires:
-.PHONY : CMakeFiles/a.out.dir/canny.o.requires
+CMakeFiles/a.out.dir/bfs.o.requires:
+.PHONY : CMakeFiles/a.out.dir/bfs.o.requires
 
-CMakeFiles/a.out.dir/canny.o.provides: CMakeFiles/a.out.dir/canny.o.requires
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny.o.provides.build
-.PHONY : CMakeFiles/a.out.dir/canny.o.provides
+CMakeFiles/a.out.dir/bfs.o.provides: CMakeFiles/a.out.dir/bfs.o.requires
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/bfs.o.provides.build
+.PHONY : CMakeFiles/a.out.dir/bfs.o.provides
 
-CMakeFiles/a.out.dir/canny.o.provides.build: CMakeFiles/a.out.dir/canny.o
+CMakeFiles/a.out.dir/bfs.o.provides.build: CMakeFiles/a.out.dir/bfs.o
 
 # Object files for target a.out
 a_out_OBJECTS = \
-"CMakeFiles/a.out.dir/canny.o"
+"CMakeFiles/a.out.dir/bfs.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
-a.out: CMakeFiles/a.out.dir/canny.o
+a.out: CMakeFiles/a.out.dir/bfs.o
 a.out: CMakeFiles/a.out.dir/build.make
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
@@ -118,7 +118,7 @@ a.out: CMakeFiles/a.out.dir/link.txt
 CMakeFiles/a.out.dir/build: a.out
 .PHONY : CMakeFiles/a.out.dir/build
 
-CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/canny.o.requires
+CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/bfs.o.requires
 .PHONY : CMakeFiles/a.out.dir/requires
 
 CMakeFiles/a.out.dir/clean:

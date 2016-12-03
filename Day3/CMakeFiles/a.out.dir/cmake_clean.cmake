@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/a.out.dir/canny.o"
+  "CMakeFiles/a.out.dir/bfs.o"
   "a.out.pdb"
   "a.out"
 )
