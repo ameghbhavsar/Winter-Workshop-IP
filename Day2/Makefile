@@ -112,19 +112,19 @@ a.out/fast:
 .PHONY : a.out/fast
 
 # target to build an object file
-histogram.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.o
-.PHONY : histogram.o
+median.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/median.o
+.PHONY : median.o
 
 # target to preprocess a source file
-histogram.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.i
-.PHONY : histogram.i
+median.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/median.i
+.PHONY : median.i
 
 # target to generate assembly for a file
-histogram.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.s
-.PHONY : histogram.s
+median.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/median.s
+.PHONY : median.s
 
 # Help Target
 help:
@@ -135,9 +135,9 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... histogram.o"
-	@echo "... histogram.i"
-	@echo "... histogram.s"
+	@echo "... median.o"
+	@echo "... median.i"
+	@echo "... median.s"
 .PHONY : help
 
 

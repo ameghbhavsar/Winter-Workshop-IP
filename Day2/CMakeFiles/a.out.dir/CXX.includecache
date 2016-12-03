@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/amegh/ip/Day2/histogram.cpp
+/home/amegh/ip/Day2/median.cpp
 opencv2/imgproc/imgproc.hpp
 /home/amegh/ip/Day2/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
 /home/amegh/ip/Day2/opencv2/highgui/highgui.hpp
+iostream
+-
 

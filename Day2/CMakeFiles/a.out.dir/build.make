@@ -49,37 +49,37 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
-CMakeFiles/a.out.dir/histogram.o: CMakeFiles/a.out.dir/flags.make
-CMakeFiles/a.out.dir/histogram.o: histogram.cpp
+CMakeFiles/a.out.dir/median.o: CMakeFiles/a.out.dir/flags.make
+CMakeFiles/a.out.dir/median.o: median.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/amegh/ip/Day2/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/histogram.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/histogram.o -c /home/amegh/ip/Day2/histogram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/median.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/median.o -c /home/amegh/ip/Day2/median.cpp
 
-CMakeFiles/a.out.dir/histogram.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/histogram.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day2/histogram.cpp > CMakeFiles/a.out.dir/histogram.i
+CMakeFiles/a.out.dir/median.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/median.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day2/median.cpp > CMakeFiles/a.out.dir/median.i
 
-CMakeFiles/a.out.dir/histogram.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/histogram.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day2/histogram.cpp -o CMakeFiles/a.out.dir/histogram.s
+CMakeFiles/a.out.dir/median.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/median.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day2/median.cpp -o CMakeFiles/a.out.dir/median.s
 
-CMakeFiles/a.out.dir/histogram.o.requires:
-.PHONY : CMakeFiles/a.out.dir/histogram.o.requires
+CMakeFiles/a.out.dir/median.o.requires:
+.PHONY : CMakeFiles/a.out.dir/median.o.requires
 
-CMakeFiles/a.out.dir/histogram.o.provides: CMakeFiles/a.out.dir/histogram.o.requires
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.o.provides.build
-.PHONY : CMakeFiles/a.out.dir/histogram.o.provides
+CMakeFiles/a.out.dir/median.o.provides: CMakeFiles/a.out.dir/median.o.requires
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/median.o.provides.build
+.PHONY : CMakeFiles/a.out.dir/median.o.provides
 
-CMakeFiles/a.out.dir/histogram.o.provides.build: CMakeFiles/a.out.dir/histogram.o
+CMakeFiles/a.out.dir/median.o.provides.build: CMakeFiles/a.out.dir/median.o
 
 # Object files for target a.out
 a_out_OBJECTS = \
-"CMakeFiles/a.out.dir/histogram.o"
+"CMakeFiles/a.out.dir/median.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
-a.out: CMakeFiles/a.out.dir/histogram.o
+a.out: CMakeFiles/a.out.dir/median.o
 a.out: CMakeFiles/a.out.dir/build.make
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
@@ -118,7 +118,7 @@ a.out: CMakeFiles/a.out.dir/link.txt
 CMakeFiles/a.out.dir/build: a.out
 .PHONY : CMakeFiles/a.out.dir/build
 
-CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/histogram.o.requires
+CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/median.o.requires
 .PHONY : CMakeFiles/a.out.dir/requires
 
 CMakeFiles/a.out.dir/clean:

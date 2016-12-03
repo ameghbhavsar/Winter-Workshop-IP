@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/a.out.dir/histogram.o"
+  "CMakeFiles/a.out.dir/median.o"
   "a.out.pdb"
   "a.out"
 )
