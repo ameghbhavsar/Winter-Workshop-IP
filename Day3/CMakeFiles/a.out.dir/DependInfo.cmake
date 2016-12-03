@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amegh/ip/Day2/shrink.cpp" "/home/amegh/ip/Day2/CMakeFiles/a.out.dir/shrink.o"
+  "/home/amegh/ip/Day3/canny.cpp" "/home/amegh/ip/Day3/CMakeFiles/a.out.dir/canny.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

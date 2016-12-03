@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amegh/ip/Day2
+CMAKE_SOURCE_DIR = /home/amegh/ip/Day3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amegh/ip/Day2
+CMAKE_BINARY_DIR = /home/amegh/ip/Day3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amegh/ip/Day2/CMakeFiles /home/amegh/ip/Day2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amegh/ip/Day3/CMakeFiles /home/amegh/ip/Day3/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amegh/ip/Day2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amegh/ip/Day3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,19 +112,19 @@ a.out/fast:
 .PHONY : a.out/fast
 
 # target to build an object file
-shrink.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/shrink.o
-.PHONY : shrink.o
+canny.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny.o
+.PHONY : canny.o
 
 # target to preprocess a source file
-shrink.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/shrink.i
-.PHONY : shrink.i
+canny.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny.i
+.PHONY : canny.i
 
 # target to generate assembly for a file
-shrink.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/shrink.s
-.PHONY : shrink.s
+canny.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny.s
+.PHONY : canny.s
 
 # Help Target
 help:
@@ -135,9 +135,9 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... shrink.o"
-	@echo "... shrink.i"
-	@echo "... shrink.s"
+	@echo "... canny.o"
+	@echo "... canny.i"
+	@echo "... canny.s"
 .PHONY : help
 
 

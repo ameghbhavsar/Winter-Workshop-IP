@@ -22,12 +22,12 @@ int main()
          int sumx=0,sumy=0;
          for(int l=i-1,a=0;a<3;a++,l++){
             for(int m=j-1,b=0;b<3;m++,b++){
-   
+
                   sumx+=Gx[a][b]*var1.at<Vec3b>(l,m)[x];
 
             }
             for(int m=j-1,b=0;b<3;m++,b++){
-   
+
                   sumy+=Gy[a][b]*var1.at<Vec3b>(l,m)[x];
 
             }
@@ -35,7 +35,7 @@ int main()
          var2.at<Vec3b>(i,j)[x]=sqrt((sumx*sumx)+(sumy*sumy));
       }
    }
-	} 
+	}
    imshow("windows1",var1);
    imshow("windows2",var2);
    waitKey(0);

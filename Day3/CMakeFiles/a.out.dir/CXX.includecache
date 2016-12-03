@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/amegh/ip/Day2/shrink.cpp
+/home/amegh/ip/Day3/canny.cpp
 opencv2/imgproc/imgproc.hpp
-/home/amegh/ip/Day2/opencv2/imgproc/imgproc.hpp
+/home/amegh/ip/Day3/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
-/home/amegh/ip/Day2/opencv2/highgui/highgui.hpp
+/home/amegh/ip/Day3/opencv2/highgui/highgui.hpp
 

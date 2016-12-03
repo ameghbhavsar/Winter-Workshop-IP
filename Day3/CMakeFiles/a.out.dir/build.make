@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amegh/ip/Day2
+CMAKE_SOURCE_DIR = /home/amegh/ip/Day3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amegh/ip/Day2
+CMAKE_BINARY_DIR = /home/amegh/ip/Day3
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a.out.dir/depend.make
@@ -49,37 +49,37 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
-CMakeFiles/a.out.dir/shrink.o: CMakeFiles/a.out.dir/flags.make
-CMakeFiles/a.out.dir/shrink.o: shrink.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/amegh/ip/Day2/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/shrink.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/shrink.o -c /home/amegh/ip/Day2/shrink.cpp
+CMakeFiles/a.out.dir/canny.o: CMakeFiles/a.out.dir/flags.make
+CMakeFiles/a.out.dir/canny.o: canny.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/amegh/ip/Day3/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/canny.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/canny.o -c /home/amegh/ip/Day3/canny.cpp
 
-CMakeFiles/a.out.dir/shrink.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/shrink.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day2/shrink.cpp > CMakeFiles/a.out.dir/shrink.i
+CMakeFiles/a.out.dir/canny.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/canny.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amegh/ip/Day3/canny.cpp > CMakeFiles/a.out.dir/canny.i
 
-CMakeFiles/a.out.dir/shrink.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/shrink.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day2/shrink.cpp -o CMakeFiles/a.out.dir/shrink.s
+CMakeFiles/a.out.dir/canny.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/canny.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amegh/ip/Day3/canny.cpp -o CMakeFiles/a.out.dir/canny.s
 
-CMakeFiles/a.out.dir/shrink.o.requires:
-.PHONY : CMakeFiles/a.out.dir/shrink.o.requires
+CMakeFiles/a.out.dir/canny.o.requires:
+.PHONY : CMakeFiles/a.out.dir/canny.o.requires
 
-CMakeFiles/a.out.dir/shrink.o.provides: CMakeFiles/a.out.dir/shrink.o.requires
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/shrink.o.provides.build
-.PHONY : CMakeFiles/a.out.dir/shrink.o.provides
+CMakeFiles/a.out.dir/canny.o.provides: CMakeFiles/a.out.dir/canny.o.requires
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/canny.o.provides.build
+.PHONY : CMakeFiles/a.out.dir/canny.o.provides
 
-CMakeFiles/a.out.dir/shrink.o.provides.build: CMakeFiles/a.out.dir/shrink.o
+CMakeFiles/a.out.dir/canny.o.provides.build: CMakeFiles/a.out.dir/canny.o
 
 # Object files for target a.out
 a_out_OBJECTS = \
-"CMakeFiles/a.out.dir/shrink.o"
+"CMakeFiles/a.out.dir/canny.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
-a.out: CMakeFiles/a.out.dir/shrink.o
+a.out: CMakeFiles/a.out.dir/canny.o
 a.out: CMakeFiles/a.out.dir/build.make
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
 a.out: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
@@ -118,7 +118,7 @@ a.out: CMakeFiles/a.out.dir/link.txt
 CMakeFiles/a.out.dir/build: a.out
 .PHONY : CMakeFiles/a.out.dir/build
 
-CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/shrink.o.requires
+CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/canny.o.requires
 .PHONY : CMakeFiles/a.out.dir/requires
 
 CMakeFiles/a.out.dir/clean:
@@ -126,6 +126,6 @@ CMakeFiles/a.out.dir/clean:
 .PHONY : CMakeFiles/a.out.dir/clean
 
 CMakeFiles/a.out.dir/depend:
-	cd /home/amegh/ip/Day2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amegh/ip/Day2 /home/amegh/ip/Day2 /home/amegh/ip/Day2 /home/amegh/ip/Day2 /home/amegh/ip/Day2/CMakeFiles/a.out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amegh/ip/Day3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amegh/ip/Day3 /home/amegh/ip/Day3 /home/amegh/ip/Day3 /home/amegh/ip/Day3 /home/amegh/ip/Day3/CMakeFiles/a.out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/a.out.dir/depend
 
