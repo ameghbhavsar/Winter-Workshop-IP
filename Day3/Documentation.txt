@@ -1,0 +1,34 @@
+EDGE DETECTION
+Lx= -1/2 0 1/2
+   1/2
+Ly= 0
+   -1/2
+Multiply with pixel value, use the formula:
+Use L=sqrt(Lx^2+Ly^2)
+L is the pixel value.
+
+CANNY FILTER
+Also used for edge detection. Thinner edges.
+Colour --> Grayscale -->Gaussian filter --> Sobel filter -->Non-maximum suppression
+Calculate:
+Theta=tan-1(Gy/Gx) --> round off to 0,45,90,135
+theta is the direction.Compare in neighbourhood of pixel based on the matrix given below.If pixel intensity is lower than the neighouring values, set pixel intensity to 0.
+135 90 45
+0   .  0
+45 90 135
+
+MAGIC CANNY FILTER
+
+opencv functions for filter
+
+STACKS AND QUEUES
+Blob Detection
+1.DFS--->Stack
+2.BFS--->Queue
+
+Note:
+#include<bits/stdc++.h> //includes everything
+
+To read:
+generic sorting using func pointer
+tresh_callback(int, void*)

@@ -1,0 +1,10 @@
+EROSION
+if at least one adjcent pixel is 0 then set it to zero.
+Dilation
+if at least one adjcent pixel is 255 then set it to 255.
+
+Hoff Transform Algorithm
+Arr[r][theta];
+r->(0,row^2+cols^2)
+theta->(0,180)
+|r*r-(x*x+y*y)|

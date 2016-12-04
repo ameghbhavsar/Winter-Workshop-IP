@@ -1,0 +1,62 @@
+1.Converting an image to grayscale and then to binary:
+Filename: convert.cpp
+
+STEP 1:RGB to Grayscale
+To convert any RGB image to binary, first it is converted to grayscale image.
+
+Method 1:Using the formula:
+gray_value=(aR+bB+cG)/(a+b+c)
+R,B,G are RGB values and a,b,c are resective weights.
+a,b,c can be varied to adjust amount of R,G,B in resulting image.
+We simply took a=b=c=1;
+
+Method 2:Using in built function:
+cvtColor(inputMatvariable, outputMatvariable, CV_RGB2GRAY)
+Third argument decides type of conversion:
+CV_RGB2GRAY: RGB to Grayscale
+CV_BGR2HSV: BGR to HSV
+CV_HSV2BGR: HSV to BGR
+Limitation: Weightage of R,G,B channels can not be adjusted.It is 1:1:1 here.
+
+
+STEP 2: Grayscale to Binary
+Decide threshold value. Then set pixels with value<threshold to black and rest to white.
+
+2.Adjusting threshold value using Trackbar:
+Filename: trackbar.cpp
+
+First a Trackbar is created using the function:
+createTrackbar(TRACKBAR_NAME,WINDOW_NAME,&a,MAX)
+a is the value to be adjusted using trackbar(threshold here), MAX is max value of a
+
+3.Adjusting image for given RGB range using Trackbar:
+Filename: ColorExtractor.cpp
+
+Constraints for RGB values are set using the 6 trackbars for R,G,B,dR,dB,dG
+Now pixels with RGB values between R-dR and R+dR and so on are displayed while the rest are displayed as black.
+
+Adjusting RGB and choosing dR,dG,dB will highlight pixels with value in tolerance range of the colour specified by R,G and B.
+
+
+
+4.Displaying histograms for RGB channels:
+Filename: histogram.cpp
+
+Count number of pixels of each value of each channel and plot it v/s the values for R,G
+and B individually.
+
+4.Filters:
+Filters are applied by multiplying each 3*3 matrix of pixels in the image with a kernel, carrying out certain mathematical operations and assigning the value to the mid pixel of 3*3 matrix from image.
+Different filters are defined by different kernels and operations.
+
+a.Mean Filter:
+Filename: meanfilter.cpp
+
+b.Median Filter
+Filename:median.cpp
+
+c.Gaussian Filter
+Filename:gaussian.cpp
+
+d.Sobel Filter
+Filename:sobel.cpp
