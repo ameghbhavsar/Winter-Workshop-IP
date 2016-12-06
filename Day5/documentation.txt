@@ -1,0 +1,39 @@
+Video Capture
+VideoCapture a(device id)
+Mat img;
+while(a.isOpened){
+  a>>img;
+  //your code
+  waitkey(30);
+}
+
+HSV
+
+
+
+Arduino
+Sensors-->microcontroller-->(motor driver)-->actuator
+
+sensor-camera
+motor driver
+
+
+motor:
+ +      -
++12     0   clock
+  0    +12  anti
+  0     0   free run
++12    +12  stall
+
+PWM(Pulse Width Modulation)
+D=Ton/Ton+Toff
+100rpm*D
+
+
+Motor Driver:L293D
+
+
+
+opencv functions:
+Contours detection- findContours
+Template Mapping- template matching opencv
