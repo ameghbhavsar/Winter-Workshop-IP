@@ -1,0 +1,1 @@
+/home/amegh/ip/Day6/CMakeFiles/a.out.dir
