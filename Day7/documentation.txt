@@ -1,0 +1,49 @@
+VERSION CONTROL SYSTEM(VCS):
+*Maintain different versions of software
+*Backup
+*Branching- working on multiple features
+*Documentation as a history of project
+
+
+try.github.io
+
+*Commit-Changes-it represents one logical change
+*Staging area: Temporary area where files are stored before commit
+  Once the changes are fnal,commit it
+*tracked file: file on stage area or comitted file
+*merge conflict
+*HEAD:commit you are on
+*-i: Interactive mode
+
+git config --global user.name "Amegh Bhavsar"
+git config --global user.name "ameghbhavsar@gmail.com"
+//create file1
+git init  ---initialize, create .git
+git add file1   ---adds file1 to staging area
+git status   ---view staging area
+git diff --cached       ---diff bw prev commit and staging area
+git commit
+git log
+git status ---it will show working directory clean => wrrking dir, staging are, commit match
+//add rollno to your file
+git status   ---shows "changes not staged"
+git diff    ---shows diff bw working dir and commit checking staging area
+
+Udacity:Intro to git and github
+man gittutorial
+
+
+
+----------Branches---------
+Branch:Line of developmnt
+Tip:Use as many branches as possible to avoid working on the master
+
+git branch
+git branch branchname
+git checkout branchname  ---change branch
+//create file2
+git add file2
+git commit
+git merge another_brach
+git log --graph --oneline
+git rebase -i HEAD~4   =>4th commit
